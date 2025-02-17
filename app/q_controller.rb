@@ -1,5 +1,5 @@
 class QController < R00lz::Controller
     def a_quote
-        "What's up, Doc?"
+        "Testing if this worked: #{__dir__}"
     end
 end
