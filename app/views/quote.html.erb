@@ -1,0 +1,10 @@
+<% if @q == nil %>
+    <p>
+    No quotes found.
+    </p>
+<% else %>
+    <p>
+    &quot;<%= @q["text"] %>&quot;
+    <br/> - <%= @q["speaker"] %>
+    </p>
+<% end %>
